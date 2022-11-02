@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    background: hsl(0, 0%, 95%);
+}
+.main{
+    width: 919px;
+    height: 503px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+}
+.first, .second, .third{
+    display: inline-block;
+    position: absolute;
+    width: 307px;
+    height: 502px;
+    padding-left: 46px;
+    padding-top: 46px;
+}
+img{
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    margin-right: 60px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    line-height: 25px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    background: hsl(0, 0%, 95%);
+    border:2px solid hsl(0, 0%, 95%);
+}
+.first button{
+    color:hsl(31, 77%, 52%);
+}
+.second button{
+    color: hsl(184, 100%, 22%);
+}
+.third button{
+    color: hsl(179, 100%, 13%);
+}
+.first button:hover{
+    background:hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+.second button:hover{
+    background: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.third button:hover{
+    background: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+.first{
+    top: 0;
+    left: 0;
+    background:hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.second{
+    top: 0;
+    left: 306px;
+    background: hsl(184, 100%, 22%);
+}
+.third{
+    top: 0;
+    right: 0;
+    background:hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
